@@ -77,24 +77,8 @@ The compatibility space learned by RE transfers surprisingly well to text search
 ## Getting started
 
 **Requirements**
-
-- Python: [COMPLETAR: version]
 - Dependencies: listed in `TFM - codigo/requirements.txt`
 - Hardware: all experiments were run locally on an **NVIDIA GeForce RTX 3050 Laptop GPU (6 GB VRAM)**, using gradient accumulation and mixed precision (AMP) to fit in memory.
-
-**Installation**
-
-```bash
-git clone [COMPLETAR: repository URL]
-cd [COMPLETAR: repository folder]
-python -m venv .venv
-.venv\Scripts\activate          # Windows
-pip install -r "TFM - codigo/requirements.txt"
-```
-
-**Usage**
-
-> [COMPLETAR: commands to train, evaluate and run each model / the Text-to-Outfit module.]
 
 ## Data
 
@@ -123,22 +107,6 @@ The dataset is **not included** in this repository.
 - Reduce over-smoothing in HGNN (e.g. DropEdge, residual connections).
 - Handle negation and exclusions in Text-to-Outfit queries (e.g. "without black").
 - Systematic hyperparameter search (Bayesian optimisation).
-
-## Citation
-
-```bibtex
-@mastersthesis{fernandez2026outfits,
-  author = {Fern{\'a}ndez Garc{\'i}a, {\'A}ngel},
-  title  = {Inteligencia Artificial multimodal para la recomendaci{\'o}n de outfits y an{\'a}lisis de compatibilidad en moda},
-  school = {Universidad Internacional de Valencia},
-  year   = {2026},
-  type   = {Trabajo Fin de M{\'a}ster}
-}
-```
-
-## License
-
-[COMPLETAR: license for the code and the thesis]. The Polyvore Outfits dataset has its own terms, set by its authors.
 
 ## Contact
 
